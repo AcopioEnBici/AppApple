@@ -1,4 +1,4 @@
-# AppApple
+# Documentacion de la API
 
 ## URL
 
@@ -13,3 +13,19 @@
 /usuarios/subirImagen     POST        SubirImagen
 
 /usuarios/obtenerImagen   GET         Obtener Imagen
+
+## Modelos
+
+### Usuario
+
+nombres: String
+
+apellidos: String
+
+correo: String
+
+imagen: String
+
+contrasena: String
+
+privilegio: String
